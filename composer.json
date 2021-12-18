@@ -1,0 +1,19 @@
+{
+    "name": "rafael/cursophp.com",
+    "description": "Aprendendo PHP",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rafael\\CursophpCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafael",
+            "email": "rbfreires@gmail.com"
+        }
+    ]
+}
